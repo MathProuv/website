@@ -1,0 +1,18 @@
+:root {
+    /*déf des couleurs*/
+    --blue: #141d2b;
+    --blue-dark: #111927;
+    --green: #9fef00;
+    --green-light: #bbff34;
+    --gray: #a4b1cd;
+    --gray-light: #eff5ff;
+    --white: #fff;
+    --black: #1a2332;
+    --black-light: #212529;
+}
+
+html {
+    background-color: var(--blue);
+    color: var(--gray);
+    font-family: sans-serif;
+}
