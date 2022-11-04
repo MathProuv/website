@@ -1183,6 +1183,10 @@ section {
     margin-bottom: 60px;
 }
 
+.contact .section-title {
+    padding-bottom: 0px;
+}
+
 .contact table {
     text-align: center;
     table-layout: fixed;
@@ -1219,7 +1223,7 @@ section {
     padding: 0 0 0 0px;
     font-size: 22px;
     font-weight: 600;
-    margin-left: 30px;
+    margin-left: 0px;
     color: #222222;
 }
 
