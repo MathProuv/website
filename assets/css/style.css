@@ -659,8 +659,8 @@ section {
 }
 
 .skills .progress .skill {
-    padding: 10px 0;
-    margin: 0 0 6px 0;
+    padding: 0px 0;
+    margin: 0 0 0px 0;
     text-transform: uppercase;
     display: block;
     font-weight: 600;
@@ -682,6 +682,10 @@ section {
     height: 10px;
     transition: 0.9s;
     background-color: #34b7a7;
+}
+
+.skills .subsection-title {
+    padding-bottom: 0;
 }
 
 
@@ -1184,7 +1188,7 @@ section {
 }
 
 .contact .section-title {
-    padding-bottom: 0px;
+    margin-bottom: 30px;
 }
 
 .contact table {
