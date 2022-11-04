@@ -13,6 +13,37 @@
 
 html {
     background-color: var(--blue);
-    color: var(--gray);
+    color: var(--gray-light);
     font-family: sans-serif;
+}
+
+footer {
+    padding-top: 60px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon {
+    width: 25px;
+    border-radius: 2px;
+}
+
+.title {
+    text-align: center;
+}
+
+.presentation {}
+
+.presentation-image {
+    float: left;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.presentation-text {
+    display: inline;
+    text-align: justify;
 }
