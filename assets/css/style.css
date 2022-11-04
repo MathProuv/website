@@ -1182,10 +1182,20 @@ section {
     background: #fff;
 }
 
+.contact table {
+    text-align: center;
+    table-layout: fixed;
+}
+
+.contact table td {
+    width: 30%;
+}
+
 .contact .info i {
     font-size: 20px;
     color: #34b7a7;
-    float: left;
+    float: center;
+    text-align: center;
     width: 44px;
     height: 44px;
     background: #effbf9;
@@ -1204,8 +1214,23 @@ section {
     color: #222222;
 }
 
+.contact .info .h4 {
+    padding: 0 0 0 0px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 30px;
+    color: #222222;
+}
+
 .contact .info p {
     padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #555555;
+}
+
+.contact .info .p {
+    padding: 0 0 0 0px;
     margin-bottom: 0;
     font-size: 14px;
     color: #555555;
